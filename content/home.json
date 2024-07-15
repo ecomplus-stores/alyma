@@ -5,14 +5,14 @@
     {
       "type": "banner-slider",
       "autoplay": 9000,
-      "full_width": false,
+      "full_width": true,
       "slides": [
         {
-          "img": "/img/uploads/rect89.webp",
-          "link": "/headset",
-          "alt": "Headset banner",
-          "start": "2020-04-11T05:54:06.750Z",
-          "end": "2020-12-31T03:00:00.000Z",
+          "img": "/img/uploads/banner2.webp",
+          "link": "https://alyma.netlify.app/vestidos",
+          "alt": "Sale ",
+          "start": "2024-07-15T03:36:33.261Z",
+          "end": "",
           "mobile_img": "/img/uploads/headphone.webp"
         },
         {
@@ -25,23 +25,38 @@
       ]
     },
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/headphone.webp"
+        },
+        {
+          "img": "/img/uploads/headphone.webp"
+        },
+        {
+          "img": "/img/uploads/headphone.webp"
+        }
+      ]
+    },
+    {
+      "page": 1,
+      "title": "Coleção Verão 2025 - veja mais ",
+      "shuffle": false,
+      "headless": false,
+      "type": "collection-shelf",
+      "link": "https://alyma.netlify.app/colecao-exclusiva",
+      "limit": 12,
+      "collection_id": "6647f3c1f4e6d85ab28a2666:collections:Coleção Verão 2025:/colecao-exclusiva",
+      "sort": "news"
+    },
+    {
+      "type": "dynamic-showcase",
+      "load_more": false,
+      "sort": "views"
+    },
+    {
       "type": "info-bar",
       "enabled": true
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "collection_id": null,
-      "sort": "offers",
-      "title": "",
-      "headless": false,
-      "limit": 12,
-      "page": 1
-    },
-    {
-      "type": "page-title",
-      "title": "Loja demo da E-Com Plus",
-      "description": "Loja de demonstração e testes da plataforma E-Com Plus e Storefront. Todos os produtos, preços e informações são meramente ilustrativos."
     }
   ]
 }
